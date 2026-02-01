@@ -39,7 +39,7 @@ void loop() {
     char op;
 
     if (!parseExpression(input.c_str(), a, op, b)) {
-      Serial.println("Fehler: Ungültiger Ausdruck");
+      Serial.println("Fehler: Ungueltiger Ausdruck");
       return;
     }
 
