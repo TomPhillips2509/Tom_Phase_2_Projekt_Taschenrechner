@@ -53,7 +53,7 @@ int main() {
     // Benutzeranweisung wird in Konsole ausgegeben
     std::cout << "Herzlich Wilkommen im Taschenrechner von Tom Phillips. Bitte beachten Sie die Anweisungen!\n";    //Begrüßung    
     std::cout << "Rechnung eingeben (z.B. 3 + 4)\n\n";    //Operanden sollen vom Benutzer jetzt eingegeben werden
-    std::cout << "Bitte beenden Sie ihren Ausdruck mit 'goArduino'\n\n\n";    //Mit "go" wird der Ausdruck an den Arduino gesendet
+    std::cout << "Bitte beenden Sie ihren Ausdruck mit 'goArduino'\n\n\n";    //Mit "goArduino" wird der Ausdruck an den Arduino gesendet
 
     //Warteschleife für Eingabe vom Benutzer
     while (true) {
@@ -92,3 +92,4 @@ int main() {
     std::cout << "Verbindung geschlossen.\n";
     return 0;
 }
+
